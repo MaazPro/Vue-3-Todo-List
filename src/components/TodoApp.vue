@@ -14,8 +14,8 @@
     <tr> <!-- For loop for task[]-->
       <th scope="col">Task</th>
       <th scope="col">Status</th>
-      <th scope="col" class="text-center">#</th>
-      <th scope="col" class="text-center">#</th>
+      <th scope="col" class="text-center">Status</th>
+      <th scope="col" class="text-center">Remove</th>
     </tr>
   </thead>
   <tbody v-for="(task,index) in tasks" :key="index"><!-- Task table (Boot strap table)-->
